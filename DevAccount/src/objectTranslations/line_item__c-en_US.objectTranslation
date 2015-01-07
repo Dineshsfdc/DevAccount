@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>line item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>line items</value>
+    </caseValues>
+    <fields>
+        <label><!-- unit price --></label>
+        <name>unit_price__c</name>
+    </fields>
+    <layouts>
+        <layout>line item Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

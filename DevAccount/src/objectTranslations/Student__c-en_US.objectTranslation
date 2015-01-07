@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Student</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Students</value>
+    </caseValues>
+    <fields>
+        <label>educate</label>
+        <name>Education__c</name>
+        <picklistValues>
+            <masterLabel>B.E -ECE</masterLabel>
+            <translation><!-- B.E -ECE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BE-CSE</masterLabel>
+            <translation><!-- BE-CSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BE-EEE</masterLabel>
+            <translation><!-- BE-EEE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BE-IT</masterLabel>
+            <translation><!-- BE-IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BE-MECH</masterLabel>
+            <translation><!-- BE-MECH --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image --></label>
+        <name>Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mentor --></label>
+        <name>Mentor__c</name>
+        <relationshipLabel><!-- Students --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Approved</masterLabel>
+            <translation><!-- Not Approved --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- age --></label>
+        <name>age1__c</name>
+    </fields>
+    <fields>
+        <label><!-- age --></label>
+        <name>age__c</name>
+    </fields>
+    <fields>
+        <label><!-- dob --></label>
+        <name>dob__c</name>
+    </fields>
+    <fields>
+        <label><!-- mark1 --></label>
+        <name>mark1__c</name>
+    </fields>
+    <fields>
+        <label><!-- mark2 --></label>
+        <name>mark2__c</name>
+    </fields>
+    <fields>
+        <label><!-- name --></label>
+        <name>name__c</name>
+    </fields>
+    <fields>
+        <label><!-- test --></label>
+        <name>test__c</name>
+    </fields>
+    <fields>
+        <label><!-- total --></label>
+        <name>total__c</name>
+    </fields>
+    <fields>
+        <label><!-- vehicle --></label>
+        <name>vehicle__c</name>
+        <relationshipLabel><!-- Students --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Student Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>student1</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Event --></label>
+        <name>New</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Change Due Date --></label>
+        <name>auto</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- typ1 --></label>
+        <name>typ1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- typ2 --></label>
+        <name>typ2</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter valid mark --></errorMessage>
+        <name>check_marks</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter valid marks. --></errorMessage>
+        <name>check_marks1</name>
+    </validationRules>
+    <workflowTasks>
+        <description><!-- find this task --></description>
+        <name>Find_stud_marks</name>
+        <subject><!-- Find stud marks --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

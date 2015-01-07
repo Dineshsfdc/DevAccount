@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>vehicle</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>vehicles</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account1__c</name>
+        <relationshipLabel><!-- vehicles (Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sample --></label>
+        <name>Sample__c</name>
+    </fields>
+    <fields>
+        <label><!-- &lt;font color=&quot;#FA8072&quot;&gt;Email --></label>
+        <name>email__c</name>
+    </fields>
+    <fields>
+        <label><!-- &lt;font color=&apos;blue&apos;&gt;Email&lt;/font&gt; --></label>
+        <name>emailaddress__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

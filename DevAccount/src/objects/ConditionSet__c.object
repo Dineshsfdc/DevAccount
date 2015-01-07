@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Governs the conditions for hiding Detail page buttons.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>HideCloneField__c</fullName>
+        <description>Enter the API name of the field that must evaluate to True to hide the button from the detail page. Leave empty if not required.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the API name of the field that must evaluate to True to hide the button from the detail page. Leave empty if not required.</inlineHelpText>
+        <label>Hide Clone Field</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HideDeleteField__c</fullName>
+        <description>Enter the API name of the field that must evaluate to True to hide the button from the detail page. Leave empty if not required.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the API name of the field that must evaluate to True to hide the button from the detail page. Leave empty if not required.</inlineHelpText>
+        <label>Hide Delete Field</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HideEditField__c</fullName>
+        <description>Enter the API name of the field that must evaluate to True to hide the button from the detail page. Leave empty if not required.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the API name of the field that must evaluate to True to hide the button from the detail page. Leave empty if not required.</inlineHelpText>
+        <label>Hide Edit Field</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HideOption__c</fullName>
+        <description>Choose to Hide or Disable Buttons.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose to Hide or Disable Buttons.</inlineHelpText>
+        <label>Hide Option</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Disable</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hide</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>HideSubmitField__c</fullName>
+        <description>Enter the API name of the field that must evaluate to True to hide the button from the detail page. Leave empty if not required.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the API name of the field that must evaluate to True to hide the button from the detail page. Leave empty if not required.</inlineHelpText>
+        <label>Hide Submit Field</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KeyPrefix__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>The SObject key prefix associated with the SObject.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The SObject key prefix associated with the SObject.</inlineHelpText>
+        <label>Key Prefix</label>
+        <length>3</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>SObjectAPIName__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>The full API name (including any namespace) of the SObject.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The full API name (including any namespace) of the SObject.</inlineHelpText>
+        <label>SObject API Name</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <label>Condition Set</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>SET{000000}</displayFormat>
+        <label>Set Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Condition Sets</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>SObjectAPIName__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>SObjectAPIName__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>SObjectAPIName__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

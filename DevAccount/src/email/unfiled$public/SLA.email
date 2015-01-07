@@ -1,0 +1,6 @@
+Hi,
+
+ The SLA Date not met for the below record.
+      {!Contact.Id}
+       {!Contact.Name}
+      {!Contact.Link}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>trigger</label>
+            <name>trigger</name>
+        </dataCategory>
+        <dataCategory>
+            <label>APPS</label>
+            <name>APPS</name>
+        </dataCategory>
+        <dataCategory>
+            <label>TABS</label>
+            <name>TABS</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Standard</label>
+                <name>Standard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Custom</label>
+                <name>Custom</name>
+            </dataCategory>
+            <label>OBJECTS</label>
+            <name>OBJECTS</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Standard fields</label>
+                <name>Standard_fields</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Custom fields</label>
+                <name>Custom_fields</name>
+            </dataCategory>
+            <label>FIELDS</label>
+            <name>FIELDS</name>
+        </dataCategory>
+        <label>Salesforce</label>
+        <name>sfdc</name>
+    </dataCategory>
+    <description>It defines all the salesforce related topics.</description>
+    <label>Salesforce topics</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

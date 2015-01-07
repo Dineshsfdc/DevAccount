@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>amount</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>amounts</value>
+    </caseValues>
+    <fields>
+        <label><!-- Approval status --></label>
+        <name>Approval__c</name>
+        <picklistValues>
+            <masterLabel>approved</masterLabel>
+            <translation><!-- approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>rejected</masterLabel>
+            <translation><!-- rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>send for approval</masterLabel>
+            <translation><!-- send for approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- amount --></label>
+        <name>amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- sid --></label>
+        <name>sid__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
